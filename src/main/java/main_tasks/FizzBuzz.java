@@ -5,14 +5,11 @@ public class FizzBuzz {
         for (int i = 0; i <= 100; i++) {
             System.out.print(i);
             if (i % 3 == 0 && i % 5 == 0) {
-                System.out.print(" - FizzBuzz");
-                System.out.println();
+                System.out.println(" - FizzBuzz");
             } else if (i % 3 == 0) {
-                System.out.print(" - fizz");
-                System.out.println();
+                System.out.println(" - fizz");
             } else if (i % 5 == 0) {
-                System.out.print(" - buzz");
-                System.out.println();
+                System.out.println(" - buzz");
             } else System.out.println();
         }
     }
